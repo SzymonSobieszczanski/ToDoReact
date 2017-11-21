@@ -1,0 +1,278 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Arial;
+}
+
+h2 {
+    color: #444;
+    font-weight: lighter;
+}
+
+
+
+body,
+input[text],
+button {
+    color: #888;
+}
+
+button {
+    font-size: 14px;
+    font-family: Arial;
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+}
+button:hover {
+    background-color: #cfd8dc;
+}
+button.delete-button {
+    float: right;
+    background-color: gray !important;
+    background-color: #d83b01 !important;
+    color: white;
+    padding: 4px;
+    position: relative;
+    font-size: 12px;
+}
+
+div {
+    margin: .1em;
+}
+
+.selected {
+    background-color: #cfd8dc !important;
+    background-color: #0078d7 !important;
+    color: white;
+}
+
+.heroes {
+    float: left;
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+}
+.heroes li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #eee;
+    margin: .5em;
+    padding: .5em;
+    height: auto;
+    border-radius: 4px;
+    width: 17em;
+}
+.heroes li:hover {
+    color: #607d8b;
+    color: #0078d7;
+    background-color: #ddd;
+    left: .1em;
+}
+.heroes li.selected:hover {
+    /*background-color: #BBD8DC !important;*/
+    color: white;
+}
+.heroes .text {
+    position: relative;
+    top: -3px;
+}
+
+.heroes .name {
+    font-weight: bold;
+    display: inline-block;
+}
+.hero .date {
+    display: inline-block;
+}
+
+.tododiv
+{
+
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21; 
+}
+.header-bar {
+    background-color: #0078d7;
+    height: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    width: 4em;
+    margin: .5em 0;
+    color: #888;
+}
+label.value {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+input {
+    height: 2em;
+    font-size: 1em;
+    padding-left: .4em;
+}
+input::placeholder {
+    color: lightgray;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.editarea {
+    float: left;
+}
+.editarea input {
+    margin: 4px;
+    height: 20px;
+    color: #0078d7;
+}
+.editarea button {
+    margin: 8px;
+}
+.editarea .editfields {
+    margin-left: 12px;
+}
+.row{
+
+    grid-row: 300px;
+}
+
+.example-enter {
+    opacity: 0;
+    transform:   translate(-250px,0);
+    transform: translate3d(-250px,0,0);
+
+  }
+  
+  .example-enter.example-enter-active {
+    opacity: 1;
+	transition: opacity 1s ease;
+	transform:   translate(0,0);
+	transform: translate3d(0,0,0);
+	transition-property: transform, opacity;
+	transition-duration: 300ms;
+	transition-timing-function: cubic-bezier(0.175, 0.665, 0.320, 1), linear;
+  }
+  
+  .example-leave {
+    opacity: 1;
+	transform:   translate(0,0,0);
+	transform: translate3d(0,0,0);
+  transition-property: transform, opacity;
+	transition-duration: 300ms;
+	transition-timing-function: cubic-bezier(0.175, 0.665, 0.320, 1), linear;
+  }
+  
+  .example-leave.example-leave-active {
+    opacity: 0;
+	transform:   translate(250px,0);
+	transform: translate3d(250px,0,0);
+  }
+  body{
+    font-family: 'Nunito';
+}
+
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #575ed8;
+}
+
+#chat{
+    
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+    border-radius: 2px;
+
+    height: 100%;
+}
+
+#chat-window{
+    height: 400px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #575ed8;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    font-family: Nunito;
+    font-size: 16px;
+ 
+    color: rgb(138, 19, 19);
+}
+
+#send-button{
+    background: #575ed8;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
+input[type=text] {
+  
+    color: white;
+}
+
+.todoradio{
+    display: inline-block;
+}
+.todoname{
+    display: inline-block;
+}
+.todosinglediv
+{
+    height: 100%;
+}
+.searchinput{
+    height: 30px;
+    margin-top: 1px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+   
+  
+}

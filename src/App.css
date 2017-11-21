@@ -1,0 +1,53 @@
+#hero:hover {
+  background-color: #00d1b2;
+}
+
+.navigation
+{
+    position: absolute; /*or fixed*/
+    left: 0px;
+    height: 100%;
+    border-right: solid 1px;
+    display: inline-block;
+    top:-2px;
+    left: -2px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.render-div
+{
+  display: inline-block;
+position: absolute;
+left:185px;
+width: 70%;
+
+margin-top:-8px;
+
+}
+#rightdiv{
+
+  float: right;
+  height: 100%;  
+  width:18.5%;
+  margin-top: 20px;
+  margin-right: -10px;
+  
+
+}
+
+.searchdiv
+{
+padding-bottom: 15px;
+margin-top: -5px;
+padding-top:2px;
+padding-right: 100%;
+width:100%;
+background-color: rgba(0, 0, 0, 0.5);
+height: 15px;
+
+
+}
+
+
+
+
+
