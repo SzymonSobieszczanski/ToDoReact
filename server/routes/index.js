@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const socket = require('../socket');
-const heroesService = require('../hero-service');
+const heroesService = require('../todo-service');
 
 router.get('/heroes/:name', (req, res) => {
   

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Hero = require('./hero-model');
+const Hero = require('./todo-model');
 
 mongoose.Promise = global.Promise;
 
