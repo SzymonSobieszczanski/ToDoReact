@@ -31,8 +31,9 @@ On your C drive create folder witch this structure:
 C:/data/db
 In this folder will be stored you local db.
 then in cmd paste
+```
 cd "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe
-
+```
 
 
 
